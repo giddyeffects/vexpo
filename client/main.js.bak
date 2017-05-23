@@ -1,0 +1,9 @@
+//import '../imports/ui/map.html';
+
+Meteor.startup(function() {
+  GoogleMaps.load();
+});
+
+Router.route('/', function () {
+  this.render('Home');
+});

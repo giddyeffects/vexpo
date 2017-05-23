@@ -1,11 +1,14 @@
 {
   "name": "vexpo",
+  "version": "1.0.0",
+  "description": "A Virtual Expo App in MeteorJS",
   "private": true,
   "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0",
-    "babel-runtime": "6.18.0"
+    "babel-runtime": "^6.18.0",
+    "bcrypt": "^1.0.2",
+    "meteor-node-stubs": "~0.2.0"
   }
 }
